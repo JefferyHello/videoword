@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/grey1" 
+    android:paddingTop="150dp" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+         
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:orientation="vertical"
+            android:gravity="center" >
+<View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp" />
+          
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logob" />
+
+        </LinearLayout>
+         <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_login_username"
+                android:textColor="@color/grey3"
+                android:textSize="28sp" />
+            
+            <EditText
+                android:id="@+id/name_edt"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" >
+                
+            </EditText>
+
+        </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_login_password"
+                android:textColor="@color/grey3"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/pwd_edt"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+        
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ip"
+                android:textColor="@color/grey3"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/ip_edt"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:text="192.168.1.102" />
+
+        </LinearLayout>
+         
+       <View
+          android:layout_width="match_parent"
+          android:layout_height="20dp" />  
+       
+        <LinearLayout 
+          android:orientation="horizontal"
+          android:gravity="center"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" >
+          
+          <CheckBox 
+              android:id="@+id/login_cb"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/login_cb"
+              android:textSize="23sp"
+              android:textColor="@color/black"/>
+          
+          <View
+                  android:layout_width="20dp"
+                  android:layout_height="match_parent" />
+          
+           <CheckBox 
+              android:id="@+id/login_auto"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/login_auto"
+              android:textSize="23sp"
+              android:textColor="@color/black"/>
+      </LinearLayout>
+      
+          <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dp" />
+          
+         <LinearLayout
+             android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center_horizontal">
+          
+             <Button
+                 android:id="@+id/login"
+                 android:layout_width="90dp"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/btn1"
+                 android:textColor="@color/white"
+                 android:text="@string/bn_login"
+                 android:textSize="23sp" />
+             
+			<View
+                  android:layout_width="35dp"
+                  android:layout_height="match_parent" />
+          
+              <Button
+                 android:id="@+id/cancel"
+                 android:layout_width="90dp"
+                 android:layout_height="wrap_content"
+                  android:background="@drawable/btn1"
+                android:textColor="@color/white"
+                 android:text="@string/bn_cancal"
+                 android:textSize="23sp" />
+              
+         </LinearLayout>
+         <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dp" />
+         
+         <LinearLayout
+             android:id="@+id/linearLayout7"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:gravity="center" >
+
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="还没有账号? 现在去"
+                 android:textSize="20sp" />
+             <Button
+                 android:id="@+id/bn_register"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="注册"
+                 android:textColor="@color/blue"
+                 android:background="@color/grey1"
+                 android:textSize="20sp" />
+
+         </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

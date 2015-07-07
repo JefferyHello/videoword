@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/grey1">
+ 
+ <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/blue"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+
+         <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rule"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true" />
+
+       </RelativeLayout>
+            
+       
+         
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+         <View
+            android:layout_width="5dp"
+            android:layout_height="fill_parent"/>
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/score3"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/grey3" />
+         <View
+            android:layout_width="1.5dp"
+            android:layout_height="fill_parent"
+             android:background="@color/blue"/>
+         <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score3_rule"
+                android:textColor="@color/grey3" />
+        
+        
+    </LinearLayout>    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+             android:background="@color/blue"/>
+    
+     <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+         <View
+            android:layout_width="5dp"
+            android:layout_height="fill_parent"/>
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/score2"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/grey3" />
+         <View
+            android:layout_width="1.5dp"
+            android:layout_height="fill_parent"
+             android:background="@color/blue"/>
+         <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score2_rule"
+                android:textColor="@color/grey3" />
+        
+        
+    </LinearLayout>    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+             android:background="@color/blue"/>
+    
+     <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+         <View
+            android:layout_width="5dp"
+            android:layout_height="fill_parent"/>
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/score1"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/grey3" />
+         <View
+            android:layout_width="1.5dp"
+            android:layout_height="fill_parent"
+             android:background="@color/blue"/>
+         <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score1_rule"
+                android:textColor="@color/grey3" />
+        
+        
+    </LinearLayout>    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+             android:background="@color/blue"/>
+    
+     <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+         <View
+            android:layout_width="5dp"
+            android:layout_height="fill_parent"/>
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/score0"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/grey3" />
+         <View
+            android:layout_width="1.5dp"
+            android:layout_height="fill_parent"
+             android:background="@color/blue"/>
+         <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score0_rule"
+                android:textColor="@color/grey3" />
+        
+        
+    </LinearLayout>    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+             android:background="@color/blue"/>
+</LinearLayout>

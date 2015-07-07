@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey1"
+    android:orientation="vertical" >
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/blue"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/back1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true" />
+        
+         <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myupdate"
+             android:textSize="20sp"
+             android:textColor="@color/white"
+             android:layout_centerInParent="true" />
+          
+       </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="40dp"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dlzh"
+            android:textColor="@color/grey3" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName">
+             <requestFocus />
+        </EditText>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dlmm"
+            android:textColor="@color/grey3"/>
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+             android:inputType="textPassword" >
+        </EditText>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qrmm"
+            android:textColor="@color/grey3" />
+
+        <EditText
+            android:id="@+id/repwd"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" >
+
+        </EditText>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/okupdate"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn1"
+            android:text="@string/okupdate"
+            android:textColor="@color/white" />
+        
+        <View
+	        android:layout_width="12dp"
+	        android:layout_height="fill_parent" />
+		
+		<Button
+            android:id="@+id/noupdate"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn1"
+            android:text="@string/bn_cancel"
+            android:textColor="@color/white"  />
+		
+    </LinearLayout>
+  
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey1"
+    android:orientation="vertical"
+    android:paddingTop="150dp" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录帐号："
+            android:textColor="@color/grey3" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName">
+             <requestFocus />
+        </EditText>
+        
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录密码："
+            android:textColor="@color/grey3" />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+             android:inputType="textPassword" >
+        </EditText>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认密码："
+            android:textColor="@color/grey3" />
+
+        <EditText
+            android:id="@+id/repwd"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" >
+        </EditText>
+        
+    </LinearLayout>
+	<View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn1"
+            android:text="@string/bn_register"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

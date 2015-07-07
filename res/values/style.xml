@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <style name="banner_height" mce_bogus="1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#009900</item>
+    </style>
+    
+</resources>

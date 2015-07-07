@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.handheld_english"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity
+            android:name=".WelcomeActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+           android:name=".MainActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/app_name" 
+            >
+          </activity>
+           
+           
+            <activity
+            android:name=".StudyActivity"
+            android:label="@string/app_name" 
+            >
+            </activity>
+            
+            <activity
+            android:name=".AboutActivity"
+            android:label="@string/app_name" 
+            >
+            </activity>
+                        
+         <activity
+            android:name=".UserLoginActivity"
+            android:label="@string/app_name" 
+           
+            >
+          </activity>
+         <activity
+            android:name=".mod.article.ArticallistActivity"
+            android:label="@string/app_name" 
+            android:launchMode="singleInstance"
+            >
+          </activity>
+          
+           <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name" 
+           
+            >
+          </activity>
+        
+           <activity
+            android:name=".mod.my.SetUpActivity"
+            android:label="@string/app_name" 
+            >
+          </activity>
+          
+             <activity
+            android:name=".mod.my.ProgressActivity"
+            android:label="@string/app_name" 
+            >
+          </activity>
+          
+             <activity
+            android:name=".mod.history.AlreadyreadActivity"
+            android:label="@string/app_name" 
+            >
+          </activity>
+          
+          <activity
+            android:name=".mod.history.AlreadywordActivity"
+            android:label="@string/app_name" 
+            >
+          </activity>
+          
+          <activity
+            android:name=".mod.word.WordrememberActivity"
+            android:label="@string/app_name" 
+            >
+          </activity>
+          
+          <activity
+            android:name=".mod.article.ArticlecontentActivity"
+            android:label="@string/app_name" 
+           
+            >
+          </activity>
+          
+           <activity
+            android:name=".mod.article.ReadArticlecontentActivity"
+            android:label="@string/app_name" 
+           
+            >
+          </activity>
+          
+           <activity android:name=".mod.video.VideoListActivity" android:label="@string/app_name"  >  </activity>
+            <activity  android:name=".mod.video.VideoPlayActivity"     android:label="@string/app_name" >  </activity>
+            <activity  android:name=".mod.video.VideoMemorizeActivity" android:label="@string/app_name"  > </activity>
+           <activity  android:name=".mod.video.VideoLearnwordActivity" android:label="@string/app_name"  > </activity>
+           
+            <activity
+            android:name=".mod.history.AlreadyvideoActivity"
+            android:label="@string/app_name" 
+            >
+            </activity>
+            <activity
+            android:name=".mod.my.MyNoteActivity"
+            android:label="@string/app_name" 
+            >
+            </activity>
+            <activity
+            android:name=".mod.word.MywordInReadActivity"
+            android:label="@string/app_name" 
+            >
+            </activity>
+            
+            <activity
+            android:name=".mod.word.InReadScore_RulesActivity"
+            android:label="@string/app_name" 
+            >
+            </activity>
+            
+            <activity
+            android:name=".mod.word.Score_RulesActivity"
+            android:label="@string/app_name" 
+            >
+            </activity>
+            <activity
+            android:name=".mod.my.UpdateInformationActivity"
+            android:label="@string/app_name" 
+            >
+          </activity>
+          
+    </application>
+
+</manifest>
